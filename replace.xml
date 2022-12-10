@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="td" fetch="https://github.com/TrebleDroid/" />
+<remote name="akari" fetch="https://github.com/ProjectAkari/" />
 
 <remove-project name="platform/system/core" />
 <project path="system/core" name="platform_system_core" remote="td" revision="android-13.0.0_r14-td" />
@@ -36,7 +37,7 @@
 <project path="system/nfc" name="platform_system_nfc" remote="td" revision="android-13.0.0_r14-td" />
 
 <remove-project name="platform/packages/apps/Settings" />
-<project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="td" revision="android-13.0.0_r14-td" />
+<project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="akari" revision="tsuru-test" />
 
 <remove-project name="platform/packages/modules/Bluetooth" />
 <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="td" revision="android-13.0.0_r14-td" />
